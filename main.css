@@ -1,0 +1,225 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+}
+
+header h1,
+header p {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black; /* Pink background color */
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke; /* Dark gray text color */
+    padding: 10px 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-right: 1px solid whitesmoke; /* Light gray border color */
+}
+
+nav a:hover,
+nav a:active {
+    color: black;
+    background-color: whitesmoke; /* Light gray hover effect color */
+}
+.onclick{
+    color: black;
+    background-color: whitesmoke;
+  }
+
+.section {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+.aside {
+    text-align: left;
+    align-items: center;
+    padding: 20px;
+    background-color: whitesmoke; /* Pink background color */
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-basis: 40%;
+    color: #333;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 1px solid black; /* Lighter gray border color */
+    background-color: black; /* Light gray background color */
+    border-radius: 50px;
+    color: white; /* Dark gray text color */
+    font-weight: bold;
+    text-decoration: none;
+    a {
+        text-decoration: none;
+        color: white; 
+    }
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: black; /* Blue background color */
+    border-radius: 50px;
+    border: 1px solid black; /* Lighter gray border color */
+    color: #fff; /* White text color */
+    font-weight: bold;
+    text-decoration: none;
+    a {
+        text-decoration: none;
+        color: white; /* Blue color for links */
+    }
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color:black ; /* Light gray background color */
+    border-radius: 50px;
+    border: 1px solid black; /* Lighter gray border color */
+    color: white; /* Dark gray text color */
+    font-weight: bold;
+    text-decoration: none;
+    a {
+        text-decoration: none;
+        color: white; /* Blue color for links */
+    }
+}
+
+.flex-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: black; /* Blue background color */
+    border-radius: 50px;
+    border: 1px solid black; /* Darker Blue border color */
+    color: #fff; /* White text color */
+    font-weight: bold;
+    text-decoration: none;
+    a {
+        text-decoration: none;
+        color: white; /* Blue color for links */
+    }
+}
+
+.flex-container:hover,
+.flex-container1:hover,
+.flex-container2:hover,
+.flex-container3:hover {
+    background-color: white; /* Darker Blue hover effect color */
+    a{
+        color: black;
+    } 
+}
+
+/* Updated footer styles */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: black; /* Blue background color */
+    color: #fff; /* White text color */
+    a {
+        text-decoration: none;
+        color: white; /* Blue color for links */
+    }
+}
+
+.footer div {
+    margin-bottom: 10px;
+}
+
+.footer h3 {
+    font-size: 1.2em;
+}
+
+.footer p,
+.footer a {
+    font-size: 0.9em;
+    color: #ddd; /* Light gray text color */
+}
+
+.footer a {
+    text-decoration: none;
+    border-bottom: 1px dotted #ddd; /* Light gray dotted underline */
+    transition: border-bottom 0.3s ease; /* Smooth transition for the underline */
+}
+
+.footer a:hover {
+    border-bottom: 1px solid #ddd; /* Solid underline on hover */
+}
+
+
+
+  
+  /* styles for tablet devices */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+      font-size: 14px;
+      width: 90%;
+      margin: auto;
+    }
+  }
+  
+  /* styles for mobile devices */
+  @media only screen and (max-width: 767px) {
+    body {
+      font-size: 12px;
+      width: 100%;
+      margin: 0;
+    }
+  }
