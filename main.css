@@ -222,4 +222,8 @@ footer {
       width: 100%;
       margin: 0;
     }
+      .header-container {
+        flex-direction: column;
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
   }
